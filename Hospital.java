@@ -1,13 +1,33 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package projetoviruszombie;
+
+package ProjetoVirusZombie;
 
 /**
- *
- * @author unifgcarvalho
+ * Classe para objetos do tipo Hospital.
+ * @author Gabriel Carvalho
+ * 
  */
+
 public class Hospital {
-    Integer cor;
+    private int cor;
+
+
+    public Hospital(){
+    }
+
+ 
+    public Hospital(int cor) {
+        this.cor = cor;
+    }
+    
+
+    public int getCor() {
+        return cor;
+    }
+
+
+    public void setCor(int cor) {
+        this.cor = cor;
+    }
+
 }
+
